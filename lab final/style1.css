@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.dark{
+    background-color:black ;
+}
+button{
+    padding:10px;
+}
+input,textarea{
+    width:200px;
+    padding:5px
+}
+#error{
+    color:red;
+}
