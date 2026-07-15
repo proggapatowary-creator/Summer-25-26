@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet1" href="style1.css">
+</head>
+<body>
+<button onclick="Theme()">Dark,Light</button>
+<h2 id="greeting"></h2>
+<nav>
+    <button onclick="showSection('about')">About</button>
+   <button onclick="showSection('project')">Project</button>
+   <button onclick="showSection('contact')">About</button>
+
+</nav>
+<div id="about" class="section">
+    <h2>myself</h2>
+    <p>I am a CSE student at AIUB</p>
+</div>
+<div id ="project" class="section">
+    <h2>Project</h2>
+    <ul>
+        <li>Portfolio</li>
+        <li>Calculator</li>
+    </ul>
+</div>
+<div id="contact " class="section">
+    <h2>Contact</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Name"><br>
+         <input type="text" id="email" placeholder="Email"><br>
+         <textarea id="message" placeholder="Message"></textarea><br>
+         <p id="error"></p>
+         <button type="submit">Send</button>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+    </form>
+</div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
